@@ -1,0 +1,28 @@
+# Secrets (rule 7: never committed)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Django
+/media/
+/staticfiles/
+*.log
+db.sqlite3
+
+# Frontend build
+node_modules/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
